@@ -32,8 +32,7 @@ body {
 .hero h1,
 .hero h4,
 .hero p,
-.hero a,
-.hero h5 {
+.hero a {
   text-shadow: var(--shadow);
 }
 
@@ -61,6 +60,37 @@ body {
   background-color: var(--pink);
 }
 
+.mynavbar {
+  background-color: rgba(249, 220, 220, 0.3) !important;
+  backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas {
+  height: 100vh;
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: "Sacramento", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.mynavbar .nav-link {
+  text-transform: uppercase;
+}
+
+.home {
+  background-image: url(img/bgundangan.png);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center left;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+
+/* MEDIA QUERY */
 /* Laptop */
 @media (max-width: 992px) {
   html {
@@ -81,6 +111,11 @@ body {
   .simply-countdown > .simply-section {
     padding: 35px;
     margin: 5px;
+  }
+
+  .mynavbar .nav-link {
+    font-size: 1.8rem;
+    text-align: center;
   }
 }
 

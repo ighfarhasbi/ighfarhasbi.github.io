@@ -94,6 +94,6 @@ body {
     margin: 5px;
   }
   .hero::before {
-    background-position: -400px;
+    background-position: -300px;
   }
 }

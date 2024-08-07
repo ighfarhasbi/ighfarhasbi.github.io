@@ -17,9 +17,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/hdsize.jpg);
+  background-image: url(img/Engagement\ Hanun\ &\ Ighfar_98.jpg);
   background-size: cover;
-  background-position: center left;
+  background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
 }
@@ -163,7 +163,7 @@ body {
     padding: 10px;
     margin: 5px;
   }
-  .hero::before {
+  /* .hero::before {
     background-position: -220px;
-  }
+  } */
 }
